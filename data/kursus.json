@@ -1,0 +1,184 @@
+{
+    "kursus" : [
+        {
+            "id" : 1,
+            "kategori" : "Pemrograman Dasar",
+            "nama" : "Bangun Situs Web Dunia Nyata yang Responsif dengan HTML dan CSS",
+            "keterangan" : "Pelajari HTML5, CSS3, dan desain web modern dengan membangun situs web yang menakjubkan untuk portofolio Anda! Termasuk flexbox dan CSS Grid",
+            "siswa" : 270772,
+            "guru" : "Jonas Schmedtmann",
+            "gambar" : "html-css.jpg",
+            "harga" : 800000
+        },
+        {
+            "id" : 2,
+            "kategori" : "Pemrograman Dasar",
+            "nama" : "Pemrograman Python Dasar untuk Pemula: Dasar",
+            "keterangan" : "Selamat datang di dunia Dasar-dasar Pemrograman Python untuk Pemula. Pelajari keterampilan pemrograman Python.",
+            "siswa" : 7712,
+            "guru" : "Dr. Sunil Soni",
+            "gambar" : "python.jpg",
+            "harga": 700000
+        },
+        {
+            "id" : 3,
+            "kategori" : "Pemrograman Dasar",
+            "nama" : "Pemrograman C# Dasar dengan Visual Studio",
+            "keterangan" : "Ambil langkah pertama Anda ke dunia pemrograman dengan kursus pemula di C# ini. Menjadi seorang programmer hari ini!",
+            "siswa" : 1138,
+            "guru" : "Programming Tut",
+            "gambar" : "c.jpg",
+            "harga": 350000
+        },
+        {
+            "id" : 4,
+            "kategori" : "Pemrograman Dasar",
+            "nama" : "Bahasa Pemrograman JAVA Basic to Advance",
+            "keterangan" : "Bahasa Pemrograman JAVA Basic to Advance",
+            "siswa" : 4879,
+            "guru" : "Digiflax E-learning",
+            "gambar" : "java.jpg",
+            "harga": 280000
+        },
+        {
+            "id" : 5,
+            "kategori" : "Pemrograman Dasar",
+            "nama" : "Pemrograman dengan JavaScript",
+            "keterangan" : "JavaScript adalah bahasa skrip yang kuat dan serbaguna yang digunakan dalam aplikasi web, game, pengkodean asinkron, dan banyak lagi.",
+            "siswa" : 395,
+            "guru" : "Zak Ruvalcaba",
+            "gambar" : "js.jpg",
+            "harga": 280000
+        },
+        {
+            "id" : 6,
+            "kategori" : "Pemrograman Dasar",
+            "nama" : "Bahasa Pemrograman C Basic hingga Advanced untuk Pemula",
+            "keterangan" : "Kursus Pemrograman C Terbaru 2020, Basic to Advance C, Meliputi Silabus Akademik Ilmu Komputer untuk C.",
+            "siswa" : 391,
+            "guru" : "jaspreet Kaur",
+            "gambar" : "c1.jpg",
+            "harga": 500000
+        },
+        {
+            "id" : 8,
+            "kategori" : "Pemrograman Dasar",
+            "nama" : "Belajar Visual Basic .NET - Panduan Pemrograman VB.NET",
+            "keterangan" : "Ingin belajar cara memprogram dengan VB.NET? Panduan pemula untuk pemrograman di Visual Basic.NET ini akan menunjukkan caranya.",
+            "siswa" : 6237  ,
+            "guru" : "Infinite Skills",
+            "gambar" : "vb.jpg",
+            "harga": 700000
+        },
+        {
+            "id" : 9,
+            "kategori" : "Pengembangan Web",
+            "nama" : "Modern React dengan Redux",
+            "keterangan" : "Kuasai React dan Redux dengan React Router, Webpack, dan Create-React-App. Termasuk Kait!.",
+            "siswa" : 249185,
+            "guru" : "Stephen Grider",
+            "gambar" : "react-native.jpg",
+            "harga": 800000
+        },
+        {
+            "id" : 10,
+            "kategori" : "Pengembangan Web",
+            "nama" : "Bootcamp Pengembang Web Full Stack : Python dan Django",
+            "keterangan" : "Belajar membangun website dengan HTML , CSS , Bootstrap , Javascript , jQuery , Python 3 , dan Django!.",
+            "siswa" : 164145 ,
+            "guru" : "Jose Portilla",
+            "gambar" : "django.jpg",
+            "harga": 800000
+        },
+        {
+            "id" : 11,
+            "kategori" : "Pengembangan Web",
+            "nama" : "Kursus Pengembang React Lengkap (dengan Hooks dan Redux)",
+            "keterangan" : "Pelajari cara membangun dan meluncurkan aplikasi web React menggunakan React, Redux, Webpack, React-Router, dan banyak lagi!.",
+            "siswa" : 74627 ,
+            "guru" : "Andrew Mead",
+            "gambar" : "react.jpg",
+            "harga": 800000
+        },
+        {
+            "id" : 12,
+            "kategori" : "Pengembangan Web",
+            "nama" : "Kursus Penguasaan MEAN yang praktis",
+            "keterangan" : "Belajar membangun proyek lengkap dari ujung ke ujung menggunakan MongoDB, Angular, Express, NodeJS, dan Bootstrap.",
+            "siswa" : 18661 ,
+            "guru" : "Ranjan Pandey",
+            "gambar" : "mean.jpg",
+            "harga": 800000
+        },
+        {
+            "id" : 13,
+            "kategori" : "Pengembangan Web",
+            "nama" : "React, NodeJS, Express & MongoDB - Panduan Fullstack MERN",
+            "keterangan" : "Bangun aplikasi React.js fullstack dengan Node.js, Express.js & MongoDB (MERN) dengan kursus yang berfokus pada proyek ini.",
+            "siswa" : 30394 ,
+            "guru" : "Academind",
+            "gambar" : "mern.jpg",
+            "harga": 800000
+        },
+        {
+            "id" : 14,
+            "kategori" : "Pengembangan Web",
+            "nama" : "(MEVN Stack) membangun APP E-Commerce PWA & Machine Learning",
+            "keterangan" : "Build (PWA & Machine Learning) APLIKASI Keranjang Belanja Menggunakan Vue Vuex Node Express MongoDB Brain.js (unit & integrasi) test.",
+            "siswa" : 2055 ,
+            "guru" : "Ahmed Khalaf",
+            "gambar" : "mevn.jpg",
+            "harga": 280000
+        },
+        {
+            "id" : 15,
+            "kategori" : "Pengembangan Aplikasi",
+            "nama" : "Flutter & Dart - Panduan Lengkap [Edisi 2022]",
+            "keterangan" : "Panduan Lengkap untuk Flutter SDK & Flutter Framework untuk membangun aplikasi iOS dan Android asli.",
+            "siswa" : 162096 ,
+            "guru" : "Academind",
+            "gambar" : "flutter.jpg",
+            "harga": 800000
+        },
+        {
+            "id" : 16,
+            "kategori" : "Pengembangan Aplikasi",
+            "nama" : "Kursus React Native + Hooks Lengkap",
+            "keterangan" : "Pahami React Native dengan Hooks, Context, dan React Navigation.",
+            "siswa" : 160188 ,
+            "guru" : "Stephen Grider",
+            "gambar" : "react-native.jpg",
+            "harga": 800000
+        },
+        {
+            "id" : 17,
+            "kategori" : "Pengembangan Aplikasi",
+            "nama" : "Ionic - Bangun Aplikasi iOS, Android & Web dengan Ionic & Angular",
+            "keterangan" : "Bangun iOS & Android Asli serta Aplikasi Web Progresif dengan Angular, Capacitor, dan Ionic Framework (Ionic 4+).",
+            "siswa" : 63015 ,
+            "guru" : "Maximillian Schwarzmuller",
+            "gambar" : "ionic.jpg",
+            "harga": 2500000
+        },
+        {
+            "id" : 18,
+            "kategori" : "Pengembangan Aplikasi",
+            "nama" : "iOS 10 & Swift 3: Dari Pemula hingga Profesional Berbayar",
+            "keterangan" : "Kursus paling komprehensif tentang pengembangan iOS - jadilah master pengembangan aplikasi.",
+            "siswa" : 90144 ,
+            "guru" : "Mark Wahlbeck",
+            "gambar" : "swift.jpg",
+            "harga": 800000
+        },
+        {
+            "id" : 19,
+            "kategori" : "Pengembangan Aplikasi",
+            "nama" : "Masterclass Pengembangan Aplikasi Android menggunakan Kotlin",
+            "keterangan" : "Pelajari Pengembangan Aplikasi Android Kotlin Dan Menjadi Pengembang Android. termasuk Tutorial Kotlin dan Video Tutorial Android.",
+            "siswa" : 35333  ,
+            "guru" : "Tim Buchalka",
+            "gambar" : "kotlin.jpg",
+            "harga": 800000
+        }
+    ]
+}
