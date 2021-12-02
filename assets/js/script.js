@@ -1,3 +1,27 @@
-// $('.see-detail').on('click', function(){
-//   console.log($(this).data('id'));  
-// })
+(function() {
+  "use strict";
+
+  /**
+   * Animation on scroll
+   */
+  window.addEventListener('load', () => {
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true,
+      mirror: false
+    })
+  });
+
+})()
+
+$('.buy-btn').click(function(){
+    $('.detail-img').attr('src', 'assets/imgs/' + $(this).data('detail-img'))
+    $('.detail-kategori').html($(this).data('detail-kategori'))
+    $('.detail-title').html($(this).data('detail-title'))
+    $('.detail-desc').html($(this).data('detail-desc'))
+    $('.detail-guru').html($(this).data('detail-guru'))
+    $('.detail-harga').html($(this).data('detail-harga'))
+    $('.detail-bahasa').html($(this).data('detail-bahasa')) 
+    $('.detail-siswa').html($(this).data('detail-siswa'))
+})

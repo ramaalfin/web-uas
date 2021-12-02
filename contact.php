@@ -12,10 +12,9 @@ include('./layout/header.php')
 <!-- MAIN -->
 <body>
     <div class="container">
-      <span class="big-circle"></span>
-      <img src="img/shape.png" class="square" alt="" />
+      <span class="big-circle" data-aos="fade-right"></span>
       <div class="form">
-        <div class="contact-info">
+        <div class="contact-info" data-aos="fade-up">
           <h3 class="title">Get in touch!</h3>
           <p class="text">
             Ada pepatah mengatakan, "Tak Kenal Maka Tak Sayang". Ayo kita berkenalan!
@@ -61,11 +60,11 @@ include('./layout/header.php')
           </div>
         </div>
 
-        <div class="contact-form">
-          <span class="circle one"></span>
-          <span class="circle two"></span>
+        <div class="contact-form" >
+          <span class="circle one" data-aos="fade-left"></span>
+          <span class="circle two" data-aos="fade-down"></span>
 
-          <form action="https://formsubmit.co/ramaalfin7@gmail.com" method="POST">
+          <form action="https://formsubmit.co/ramaalfin7@gmail.com" method="POST" data-aos="fade-down">
             <!-- Honeypot -->
             <input type="text" name="_honey" style="display: none;">
 

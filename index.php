@@ -16,24 +16,23 @@ $kursus = $kursus["kursus"];
 ?>
 
 <!-- MAIN -->
-<section id="home">
-    <div class="container">
+<section id="home" data-aos="fade-in">
+    <div class="container" data-aos="fade-right">
         <h5 class="text-uppercase">pendatang baru</h5>
         <h1 class="text-capitalize"><span>harga terbaik</span> untuk tahun ini</h1>
         <p>codecourse menyediakan kursus terbaik dengan harga yang terjangkau</p>
-        <a href="shop.php"><button class="buy-btn text-uppercase">lihat kursus</button></a>
     </div>
 </section>
 
 <!-- COURSES -->
 <section id="webdev" class="my-5 pb-5">
-    <div class="container text-center mt-5 py-5">
+    <div class="container text-center mt-5 py-5" data-aos="fade-in">
         <h3>Pengembangan Web</h3>
         <hr class="mx-auto">
         <p>dibawah ini adalah kumpulan kursus pengembangan web</p>
     </div>
 
-    <div class="row mx-auto container-fluid">
+    <div class="row mx-auto container-fluid" data-aos="fade-left">
 
         <?php foreach($kursus as $row) { ?>
 
@@ -55,13 +54,13 @@ $kursus = $kursus["kursus"];
 </section>
 
 <section id="mobdev" class="my-5 pb-5">
-    <div class="container text-center mt-5 py-5">
+    <div class="container text-center mt-5 py-5" data-aos="fade-in">
         <h3>Pengembangan Aplikasi</h3>
         <hr class="mx-auto">
         <p>dibawah ini adalah kumpulan kursus pengembangan aplikasi</p>
     </div>
 
-    <div class="row mx-auto container-fluid">
+    <div class="row mx-auto container-fluid" data-aos="fade-right">
         <?php foreach($kursus as $row) { ?>
         <?php if($row && $row['kategori'] == "Pengembangan Aplikasi"){ ?>
         <div class="product text-center col-lg-3 col-md-4 col-sm-12">
@@ -76,13 +75,13 @@ $kursus = $kursus["kursus"];
 </section>
 
 <section id="basprog" class="my-5 pb-5">
-    <div class="container text-center mt-5 py-5">
+    <div class="container text-center mt-5 py-5" data-aos="fade-in">
         <h3>Pemrograman Dasar</h3>
         <hr class="mx-auto">
         <p>dibawah ini adalah kumpulan kursus pemrograman dasar</p>
     </div>
 
-    <div class="row mx-auto container-fluid">
+    <div class="row mx-auto container-fluid" data-aos="fade-left">
         <?php foreach($kursus as $row) { ?>
 
             <?php if($row && $row['kategori'] == "Pemrograman Dasar"){ ?>
@@ -116,7 +115,7 @@ $kursus = $kursus["kursus"];
             <div class="modal-body">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-lg-4">
                             <div class="img">
                                 <img alt="" class="img-responsive detail-img">
                                 <div class="harga">
@@ -124,7 +123,7 @@ $kursus = $kursus["kursus"];
                                 </div>
                             </div>
                         </div>
-                        <div class="col-8">
+                        <div class="col-lg-8">
                             <div class="content">
                                 <span class="detail-kategori"></span>
                                 <h4 class="detail-title font-weight-bold"></h4>
