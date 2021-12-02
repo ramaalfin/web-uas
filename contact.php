@@ -2,8 +2,8 @@
 <?php 
 $title = "Contact";
 $style = [
-  './assets/css/style.css',
-  './contact.css',
+  'assets/css/style.css',
+  './contact.css'
 ];
 
 include('./layout/header.php') 
@@ -71,7 +71,7 @@ include('./layout/header.php')
             <!-- Disable Captcha -->
             <input type="hidden" name="_captcha" value="false">
 
-            <input type="hidden" name="_next" value="https://ramaalfin.github.io/web-tugas/success.html">
+            <input type="hidden" name="_next" value="https://ramaalfin.gitlab.io/web-uas/success.php">
             <h3 class="title">Contact me</h3>
             <div class="input-container">
               <input type="text" name="name" class="input" placeholder="Username" />
