@@ -71,7 +71,7 @@ include('./layout/header.php')
             <!-- Disable Captcha -->
             <input type="hidden" name="_captcha" value="false">
 
-            <input type="hidden" name="_next" value="https://ramaalfin.gitlab.io/web-uas/success.php">
+            <input type="hidden" name="_next" value="https://codecourse.herokuapp.com/success.php">
             <h3 class="title">Contact me</h3>
             <div class="input-container">
               <input type="text" name="name" class="input" placeholder="Username" />
