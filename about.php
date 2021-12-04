@@ -12,7 +12,7 @@ include("layout/header.php")
     <section id="about">
         <div class="about" data-aos="fade-in">
             <div class="container">
-                <h2 class="title">Tentang Kami</h2>
+                <h2 class="title" data-aos="fade-up">Tentang Kami</h2>
             </div>
         </div>
         <div class="container" data-aos="fade-up">
